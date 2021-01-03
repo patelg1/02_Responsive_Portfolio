@@ -12,6 +12,6 @@ Repository URL: https://github.com/patelg1/02_Responsive_Portfolio
 
 # Usage
 
-![About me screenshot](assets/images/screenshot_about.png)
-![Portfolio screenshot](assets/images/screenshot_portfolio.png)
-![About me screenshot](assets/images/screenshot_contact.png)
+![About me screenshot](Assets/Images/screenshot_about.png)
+![Portfolio screenshot](Assets/Images/screenshot_portfolio.png)
+![Contact screenshot](Assets/Images/screenshot_contact.png)
