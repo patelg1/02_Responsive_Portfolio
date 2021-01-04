@@ -20,7 +20,7 @@
 <body>
     <!--Navbar with links for about, portfolio, contact-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
             <div class="container-fluid">
                 <a class="navbar-brand bg-info text-light m-2 fw-bold" href="#">Gopalkrushna Patel</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -48,24 +48,28 @@
     <main>
         <!--Form to enter contact information with name, email, and message-->
         <section class="bio">
-            <div class="container bg-light shadow-lg p-3 mb-5 bg-white rounded col-md-10">
+            <div class="container bg-light shadow-lg p-4 mb-5 bg-white rounded col-md-10">
                 <div class="row">
-                    <div class="col-md-8 pt-5">
+                    <div class="col-md-8 p-5">
                         <h1 class="text-info">Contact</h1>
                         <hr>
                         <form>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                                <label for="formGroupExampleInput" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First name">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">Email</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                                <label for="formGroupExampleInput2" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput3" class="form-label">Email</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Email">
                             </div>
                             <div class="mb-3">
                                 <label for="floatingTextArea" class="form-label">Message</label>
                                 <textarea class="form-control" id="floatingTextArea"
-                                    placeholder="Message" rows="5"></textarea>
+                                    placeholder="Message" rows="7"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
@@ -74,9 +78,9 @@
             </div>
         </section>
     </main>
-
+    
     <!--Footer with social media links-->
-  <footer class="footer mt-auto py-3 bg-primary text-center fixed-bottom">
+  <footer class="footer mt-auto py-3 bg-primary text-center flex-bottom">
     <div class="container bg-info">
       <a href="https://github.com/patelg1" target="_blank" aria-label="Github link"><i class="fa fa-github p-3" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/gopalkrushna-patel/" target="_blank" aria-label="Linkedin link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
