@@ -6,12 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!--Reset stylesheet-->
-  <link rel="stylesheet" href="../02_Responsive_Portfolio/Assets/reset.css">
+  <link rel="stylesheet" href="../02_Responsive_Portfolio/Assets/css/reset.css">
   <!--Bootstrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
+  <!--Font awesome CSS-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@1&display=swap" rel="stylesheet">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="./Assets/css/style.css"/>
   <!--Page title-->
   <title>About Me</title>
 </head>
@@ -19,9 +24,9 @@
 <body>
   <!--Navbar with links for about, portfolio, contact-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
       <div class="container-fluid">
-        <a class="navbar-brand bg-info text-light m-2 fw-bold" href="#">Gopalkrushna Patel</a>
+        <a class="navbar-brand bg-dark text-light m-2 fw-bold" href="#">Gopalkrushna Patel</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -49,7 +54,7 @@
       <div class="container bg-light shadow-lg p-5 mb-5 bg-white rounded col-md-10">
         <div class="row">
           <div class="col-md-6 pt-5">
-            <h1 class="text-info">About Me</h1>
+            <h1>About Me</h1>
             <hr>
           </div>
           <div class="row">
@@ -58,13 +63,14 @@
                 <img class="img-fluid float-start m-2" src="Assets/Images/me.jpg" alt="Gopalkrushna Patel image">
                 <p>
                   I have graduated from Temple University with a Bachelor of Science in Biology. I currently work as a
-                  Medical Technologist in the Transfusion Medicine Department at Temple University Hospital.
+                  Medical Technologist in the Transfusion Medicine Department at Temple University Hospital. 
                 </p>
                 <p>
                   While I have enjoyed my time in this field, I felt it was time to do something new. I have always had
                   an interest in software and web development. I have dabbled in development in my free time, learning
                   languages such as Java and Python. Now that I have decided on pursuing this as a career, I enrolled in 
-                  the Penn Coding Bootcamp Full Stack program.
+                  the Penn Coding Bootcamp Full Stack program. Some technologies and skills I have learned are HTML5, CSS3, 
+                  JavaScript, Bootstrap, Bulma, JQuery, JSON, API's, AJAX, Node.js, Command Line, and Git. 
                 </p>
               </div>
             </div>
@@ -74,11 +80,10 @@
     </section>
   </main>
   <!--Footer with social media links-->
-  <footer class="footer mt-auto py-3 bg-primary text-center flex-bottom">
-    <div class="container bg-info">
-      <a href="https://github.com/patelg1" target="_blank" aria-label="Github link"><i class="fa fa-github p-3" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/gopalkrushna-patel/" target="_blank" aria-label="Lindedin link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
+  <footer class="footer mt-auto py-3 bg-dark text-center flex-bottom">
+    <div class="container">
+      <p class="text-white">&copy;Copyright 2021 Gopalkrushna Patel</p>
+  </div>    
   </footer>
 
 
