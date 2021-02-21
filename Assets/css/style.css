@@ -1,0 +1,28 @@
+.navbar {
+    padding: 30px;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family: 'IM Fell French Canon', serif;
+    
+}   
+
+.nav-item {
+    font-size: 30px;
+}
+
+body {
+    background-image: url('../Images/backgroundImage.jpg');
+}
+
+h1 {
+    color: #17202A;
+    font-size: 50px;
+    font-family: 'IM Fell French Canon', serif;
+    
+}
+
+#app-description {
+    text-align: center;
+}
