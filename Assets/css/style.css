@@ -26,3 +26,17 @@ h1 {
 #app-description {
     text-align: center;
 }
+
+#my-bio {
+    font-size: 25px;
+}
+
+.skills-icon {   
+    width: 10%;
+    height: 10%;
+}
+
+li {
+   list-style-type: disc; 
+}
+
