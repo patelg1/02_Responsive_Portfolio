@@ -8,7 +8,7 @@ The about page includes a brief bio. The portfolio page has images of projects w
 
 ## Installation
 
-Website URL: https://patelg1.github.io/02_Responsive_Portfolio
+Website URL: https://patelg1.github.io/Portfolio/
 
 Repository URL: https://github.com/patelg1/02_Responsive_Portfolio
 
