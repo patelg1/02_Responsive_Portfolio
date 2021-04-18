@@ -52,78 +52,91 @@
     <main>
         <!--Portfolio page with cards to diplay content-->
         <section class="portfolio">
-            <div class="container bg-light shadow-lg p-3 mb-5 bg-white rounded col-md-10">
+            <div class="container bg-light shadow-lg p-5 mb-5 rounded">
                 <div class="row gap-3">
-                    <div class="col-md-6 pt-5">
-                        <h1>Portfolio</h1>
+                    <div class="col pt-5">
+                        <h1 class="text-center">Portfolio</h1>
                         <hr>
-                    </div>
-                    <div class="row pb-2">
-                        <div class="col-md-4">
+                    </div> 
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
                             <div class="card">
-                                <img src="./Assets/Images/vgs-home.png" class="card-img-top" alt="Video Game Search Engine home image">
+                              <img src="./Assets/Images/kitchen_blogger_screenshot.png" class="card-img-top" alt="Kitchen Blogger image">
+                              <div class="card-body">
+                                <a class="projectName" href="https://kitchenblogger.herokuapp.com/"><h5 class="card-title text-center">Kitchen Blogger</h5></a>                                    
+                                <p id="app-description">Application that allows a user to login and view, post, edit, or comment on recipes. User can also connect in real time to other users with a chatbox</p>
+                                <a href="https://github.com/patelg1/Kitchen-Blogger" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="./Assets/Images/vgs-home.png" class="card-img-top" alt="Video Game Search Engine home image">
+                            <div class="card-body">
+                                <a class="projectName" href="https://elliott-steven.github.io/project1-videogamesearch/"><h5 class="card-title text-center">Video Game Search Engine</h5></a>                                    
+                                <p id="app-description">Application that allows a gamer to search for a game by name and get images and videos back of the game</p>
+                                <a href="https://github.com/elliott-steven/project1-videogamesearch" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="./Assets/Images/password_generator_screenshot.png" class="card-img-top" alt="Password Generator Image">
+                            <div class="card-body">
+                                <a class="projectName" href=" https://patelg1.github.io/Password_Generator/"><h5 class="card-title text-center">Password Generator</h5></a>                                    
+                                <p id="app-description">Application that allows user to generate a password by selecting a password length and selecting from different password critera</p>
+                                <a href="https://github.com/patelg1/Password_Generator" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">
+                            <img src="./Assets/Images/note_taker_screenshot.png" class="card-img-top" alt="Note taker image">
+                            <div class="card-body">
+                                <a class="projectName" href="https://secret-wildwood-56133.herokuapp.com/"><h5 class="card-title text-center">Note Taker</h5></a>                                    
+                                <p id="app-description">Application that allows user to write and save notes so that the user can organize their thoughts and keep track of tasks they need to complete</p>
+                                <a href="https://github.com/patelg1/Note_Taker" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card">                            
+                            <div class="card-body">
+                                <img src="./Assets/Images/weather_dashboard_screenshot.png" class="card-img-top" alt="Weather Dashboard image">
                                 <div class="card-body">
-                                    <a class="projectName" href="https://elliott-steven.github.io/project1-videogamesearch/"><h5 class="card-title text-center">Video Game Search Engine</h5></a>                                    
-                                    <p id="app-description">Application that allows a gamer to search for a game and get images and videos back</p>
-                                    <a href="https://github.com/elliott-steven/project1-videogamesearch" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
+                                    <a class="projectName" href="https://patelg1.github.io/Weather_Dashboard/"><h5 class="card-title text-center">Weather Dashboard</h5></a>                                    
+                                    <p id="app-description">Application that allows user to see current conditions for a searched city and a five day forecast for that particular city</p>
+                                    <a href="https://github.com/patelg1/Weather_Dashboard" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="./Assets/Images/password_generator_screenshot.png" class="card-img-top" alt="Password Generator Image">
+                          </div>
+                        </div>                        
+                        <div class="col">
+                            <div class="card">                            
+                              <div class="card-body">
+                                <img src="./Assets/Images/day_schedular_screenshot.png" class="card-img-top" alt="Workday Schedular image">
                                 <div class="card-body">
-                                    <a class="projectName" href=" https://patelg1.github.io/Password_Generator/"><h5 class="card-title text-center">Password Generator</h5></a>                                    
-                                    <p id="app-description">Application that allows user to select password length and different critera to create a password</p>
-                                    <a href="https://github.com/patelg1/Password_Generator" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
-                                </div>
+                                    <a class="projectName" href="https://patelg1.github.io/Work_Day_Schedular/"><h5 class="card-title text-center">Workday Schedular</h5></a>                                    
+                                    <p id="app-description">Application that allows a user with a busy schedule to add important events to a daily planner to manage their time effectively</p>
+                                    <a href="https://github.com/patelg1/Work_Day_Schedular" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
+                                  </div>
+                              </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row pb-2">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="./Assets/Images/code_quiz_screenshot.png" class="card-img-top" alt="Code Quiz image">
+                          </div> 
+                        <div class="col">
+                            <div class="card">                            
+                                <div class="card-body">
+                                    <img src="./Assets/Images/code_quiz_screenshot.png" class="card-img-top" alt="Code Quiz image">
                                 <div class="card-body">
                                     <a class="projectName" href="https://patelg1.github.io/Code_Quiz/"><h5 class="card-title text-center">Code Quiz</h5></a>                                    
                                     <p id="app-description">Application that creates a five question quiz about coding and displays the score and highscores of different players</p>
                                     <a href="https://github.com/patelg1/Code_Quiz" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="./Assets/Images/day_schedular_screenshot.png" class="card-img-top" alt="Workday Schedular image">
-                                <div class="card-body">
-                                    <a class="projectName" href="https://patelg1.github.io/Work_Day_Schedular/"><h5 class="card-title text-center">Workday Schedular</h5></a>                                    
-                                    <p id="app-description">Application that allows a user to store information at different times of the workday</p>
-                                    <a href="https://github.com/patelg1/Work_Day_Schedular" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row pb-2">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img src="./Assets/Images/weather_dashboard_screenshot.png" class="card-img-top" alt="Weather Dashboard image">
-                                <div class="card-body">
-                                    <a class="projectName" href="https://patelg1.github.io/Weather_Dashboard/"><h5 class="card-title text-center">Weather Dashboard</h5></a>                                    
-                                    <p id="app-description">Application that allows user to see current conditions and a five day forecast for any city</p>
-                                    <a href="https://github.com/patelg1/Weather_Dashboard" target="_blank" aria-label="Github link"><h6 class="text-center">View Code</h6></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-md-4 pb-2">
-                            <div class="card">
-                                <img src="http://placehold.jp/150x150.png" class="card-img-top" alt="Placeholder image">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Coming soon</h5>
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
+                        </div>                                               
+                    </div> 
                 </div>
-
             </div>
         </section>
     </main>
