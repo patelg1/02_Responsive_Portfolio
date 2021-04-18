@@ -10,7 +10,7 @@ The about page includes a brief bio. The portfolio page has images of projects w
 
 Website URL: https://patelg1.github.io/Portfolio/
 
-Repository URL: https://github.com/patelg1/02_Responsive_Portfolio
+Repository URL: https://github.com/patelg1/Portfolio
 
 # Usage
 
