@@ -51,27 +51,80 @@
   <main>
     <!--Bio info about me with image-->
     <section class="bio">
-      <div class="container bg-light shadow-lg p-5 mb-5 bg-white rounded col-md-10">
+      <div class="container bg-light shadow-lg p-5 mb-5 rounded">
         <div class="row">
-          <div class="col-md-6 pt-5">
-            <h1>About Me</h1>
+          <div class="col pt-5">
+            <h1 class="text-center">About Me</h1>
             <hr>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col">
               <div class="bio-info">
-                <img class="img-fluid float-start m-2" src="Assets/Images/me.jpg" alt="Gopalkrushna Patel image">
-                <p>
+                <img class="img-fluid float-start me-2" src="Assets/Images/me.jpg" alt="Gopalkrushna Patel image">
+                <p id="my-bio">
                   I have graduated from Temple University with a Bachelor of Science in Biology. I currently work as a
                   Medical Technologist in the Transfusion Medicine Department at Temple University Hospital. 
                 </p>
-                <p>
+                <p id="my-bio">
                   While I have enjoyed my time in this field, I felt it was time to do something new. I have always had
                   an interest in software and web development. I have dabbled in development in my free time, learning
                   languages such as Java and Python. Now that I have decided on pursuing this as a career, I enrolled in 
                   the Penn Coding Bootcamp Full Stack program. Some technologies and skills I have learned are HTML5, CSS3, 
-                  JavaScript, Bootstrap, Bulma, JQuery, JSON, API's, AJAX, Node.js, Command Line, and Git. 
+                  JavaScript, Bootstrap, Bulma, jQuery, JSON, API's, AJAX, Node.js, Command Line, and Git. 
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container bg-light shadow-lg p-5 mb-5 rounded">
+        <div class="row">
+          <div class="col pt-5">
+            <h1 class="text-center">Skills Overview</h1>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="skills-info">
+                <p class="text-center">Below is a quick overview of my main technical skill sets and tools I use.</p>             
+              </div>             
+              <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">                    
+                    <div class="card-body">
+                      <div class="text-center">
+                        <img class="skills-icon" src="Assets/Images/frontend.png" />
+                      </div>
+                      <h3 class="card-title text-center">Frontend</h3>
+                      <ul>
+                        <li>HTML5/CSS3/Bootstrap/Bulma</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>                      
+                        <li>Handlebars.js</li>
+                        <li>RESTful API/JSON</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">                    
+                    <div class="card-body">
+                      <div class="text-center">
+                        <img class="skills-icon" src="Assets/Images/backend.png" />
+                      </div>
+                      <h3 class="card-title text-center">Backend</h3>
+                      <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MySQL</li>
+                        <li>Sequelize</li>
+                        <li>MongoDB</li>                      
+                      </ul>
+                    </div>
+                  </div>
+                </div>                
               </div>
             </div>
           </div>
