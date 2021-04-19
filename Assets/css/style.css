@@ -2,15 +2,10 @@
     padding: 30px;
 }
 
-.navbar-brand {
-    font-size: 50px;
+.navbar-brand {    
     font-family: 'IM Fell French Canon', serif;
     
-}   
-
-.nav-item {
-    font-size: 30px;
-}
+} 
 
 body {
     background-image: url('../Images/backgroundImage.jpg');
