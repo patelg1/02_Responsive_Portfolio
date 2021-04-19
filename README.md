@@ -1,4 +1,6 @@
-# 02_Responsive_Portfolio
+# Portfolio
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 
 ## Description
 
@@ -17,3 +19,16 @@ Repository URL: https://github.com/patelg1/Portfolio
 ![About me screenshot](Assets/Images/screenshot_about.png)
 ![Portfolio screenshot](Assets/Images/screenshot_portfolio.png)
 ![Contact screenshot](Assets/Images/screenshot_contact.png)
+
+## Contributing
+See the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
+
+## License
+MIT License 
+
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+
+## Questions
+Github: https://github.com/patelg1 
+
+Email: patelgopalk1@gmail.com
